@@ -1,0 +1,13 @@
+# Métricas de sistema (CPU/RAM)
+psutil
+numpy
+scipy
+torch
+torchaudio
+librosa
+protobuf
+soundfile
+pandas
+
+#Piper TTS
+piper-tts

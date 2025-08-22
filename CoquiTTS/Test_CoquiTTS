@@ -1,0 +1,67 @@
+import time
+import psutil
+import os
+import pandas as pd
+from TTS.api import TTS #TTS ES LA LIBRERIA OFICIAL DE COQUI TTS
+import soundfile as sf
+
+# -----------------------------
+# CONFIG
+# -----------------------------
+# Modelo español de Coqui TTS
+MODEL_NAME = "tts_models/es/css10/vits"  # puedes cambiarlo por otro modelo español
+OUTPUT_DIR = "salida_tts"
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+# Leer frases desde un CSV
+# El archivo debe tener una columna llamada 'texto'
+csv_file = "frases.csv"
+df = pd.read_csv(csv_file)
+frases = df["texto"].dropna().tolist()
+
+# -----------------------------
+# Cargar modelo
+# -----------------------------
+print("Cargando modelo Coqui TTS...")
+tts = TTS(model_name=MODEL_NAME, progress_bar=False, gpu=False)
+
+# -----------------------------
+# Métricas
+# -----------------------------
+tiempos = []
+usos_cpu = []
+usos_mem = []
+
+for i, frase in enumerate(frases):
+    inicio = time.time()
+    process = psutil.Process(os.getpid())
+
+    # Medir uso de CPU y memoria antes
+    cpu_before = psutil.cpu_percent(interval=None)
+    mem_before = process.memory_info().rss / (1024 * 1024)
+
+    # Generar audio
+    salida_path = os.path.join(OUTPUT_DIR, f"frase_{i+1}.wav")
+    wav = tts.tts(text=frase)
+    sf.write(salida_path, wav, 22050)
+
+    # Medir tiempos y recursos
+    fin = time.time()
+    cpu_after = psutil.cpu_percent(interval=None)
+    mem_after = process.memory_info().rss / (1024 * 1024)
+
+    tiempos.append(fin - inicio)
+    usos_cpu.append(cpu_after - cpu_before)
+    usos_mem.append(mem_after - mem_before)
+
+# -----------------------------
+# Resultados cuantitativos
+# -----------------------------
+print("\nResultados de pruebas TTS (Coqui):")
+print(f"- Total frases procesadas: {len(frases)}")
+print(f"- Latencia promedio: {sum(tiempos)/len(tiempos):.3f} s")
+print(f"- Consumo promedio CPU: {sum(usos_cpu)/len(usos_cpu):.2f} %")
+print(f"- Consumo promedio RAM: {sum(usos_mem)/len(usos_mem):.2f} MB")
+print(f"- Audios generados en carpeta: {OUTPUT_DIR}")
+
+print("\nNOTA: Para MOS (Mean Opinion Score), se requiere evaluación humana (1–5).")
