@@ -1,0 +1,6 @@
+engine,idx,frase,chars,wav_path,mp3_path,latencia_s,duracion_audio_s,rtf,cpu_promedio_%,ram_max_MB,samplerate,channels,voice,speed_wpm,pitch,amplitude,error
+espeak-ng,1,El artículo 12 establece la obligatoriedad de cumplir con la normativa vigente.,79,salida_espeak\frase_1.wav,salida_espeak\frase_1.mp3,0.6157,4.7984,0.1283,61.57,9.05,22050,1,es,170,50,150,
+espeak-ng,2,Las disposiciones se aplicarán en un plazo máximo de 90 días.,61,salida_espeak\frase_2.wav,salida_espeak\frase_2.mp3,0.1602,4.1812,0.0383,66.45,8.11,22050,1,es,170,50,150,
+espeak-ng,3,Todo usuario debe registrar sus datos conforme al reglamento.,61,salida_espeak\frase_3.wav,salida_espeak\frase_3.mp3,0.1575,3.8756,0.0406,74.65,8.11,22050,1,es,170,50,150,
+espeak-ng,4,La autoridad de aplicación podrá imponer sanciones económicas.,62,salida_espeak\frase_4.wav,salida_espeak\frase_4.mp3,0.1578,4.0095,0.0393,66.5,8.11,22050,1,es,170,50,150,
+espeak-ng,5,El incumplimiento será causal de suspensión inmediata del servicio.,67,salida_espeak\frase_5.wav,salida_espeak\frase_5.mp3,0.1574,4.2157,0.0373,83.1,8.09,22050,1,es,170,50,150,

@@ -1,6 +1,6 @@
 idx,frase,chars,wav_path,mp3_path,latencia_s,duracion_audio_s,rtf,cpu_promedio_%,ram_max_MB,samplerate,channels,error
-1,El artículo 12 establece la obligatoriedad de cumplir con la normativa vigente.,79,salida_piper\frase_1.wav,salida_piper\frase_1.mp3,4.6897,3.9358,1.1915,0.77,4.23,22050,1,
-2,Las disposiciones se aplicarán en un plazo máximo de 90 días.,61,salida_piper\frase_2.wav,salida_piper\frase_2.mp3,3.1057,3.3205,0.9353,0.0,4.23,22050,1,
-3,Todo usuario debe registrar sus datos conforme al reglamento.,61,salida_piper\frase_3.wav,salida_piper\frase_3.mp3,2.9621,3.0302,0.9775,0.0,4.23,22050,1,
-4,La autoridad de aplicación podrá imponer sanciones económicas.,62,salida_piper\frase_4.wav,salida_piper\frase_4.mp3,3.3524,3.2508,1.0312,0.0,4.23,22050,1,
-5,El incumplimiento será causal de suspensión inmediata del servicio.,67,salida_piper\frase_5.wav,salida_piper\frase_5.mp3,2.9763,3.216,0.9255,0.0,4.23,22050,1,
+1,El artículo 12 establece la obligatoriedad de cumplir con la normativa vigente.,79,salida_piper\frase_1.wav,salida_piper\frase_1.mp3,9.8314,3.9822,2.4688,0.0,4.24,22050,1,
+2,Las disposiciones se aplicarán en un plazo máximo de 90 días.,61,salida_piper\frase_2.wav,salida_piper\frase_2.mp3,4.4493,3.2856,1.3542,0.0,4.24,22050,1,
+3,Todo usuario debe registrar sus datos conforme al reglamento.,61,salida_piper\frase_3.wav,salida_piper\frase_3.mp3,4.5637,3.1115,1.4667,0.0,4.24,22050,1,
+4,La autoridad de aplicación podrá imponer sanciones económicas.,62,salida_piper\frase_4.wav,salida_piper\frase_4.mp3,4.5187,3.2044,1.4102,0.3,4.23,22050,1,
+5,El incumplimiento será causal de suspensión inmediata del servicio.,67,salida_piper\frase_5.wav,salida_piper\frase_5.mp3,3.8099,3.274,1.1637,0.37,4.23,22050,1,
