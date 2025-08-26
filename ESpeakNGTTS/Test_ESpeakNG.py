@@ -18,9 +18,9 @@ OUTPUT_DIR = "salida_espeak"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # Parámetros de voz eSpeak NG
-ESPEAK_VOICE = "es"      # "es" español, podés probar "es-la", etc. según voces instaladas
+ESPEAK_VOICE = "es"      # "es" español, podés probar "es-la"
 ESPEAK_SPEED = 170       # palabras por minuto
-ESPEAK_PITCH = 50        # 0-99
+ESPEAK_PITCH = 50        
 ESPEAK_AMPL  = 150       # 0-200 (volumen)
 # -------------------------
 
@@ -57,7 +57,7 @@ def synthesize_with_espeak(text, wav_path, voice="es", speed=170, pitch=50, ampl
     if not espeak_bin:
         espeak_bin = find_espeak()
 
-    # eSpeak NG recibe el texto como argumento final (no por stdin)
+    # eSpeak NG recibe el texto como argumento final
     # -v voz, -s speed (wpm), -p pitch (0-99), -a amplitude (0-200), -w salida.wav
     cmd = [
         espeak_bin,

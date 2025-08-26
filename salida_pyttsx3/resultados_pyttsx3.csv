@@ -1,0 +1,11 @@
+idx,frase,chars,wav_path,mp3_path,latencia_s,duracion_audio_s,rtf,cpu_promedio_%,ram_max_MB,samplerate,channels,error
+1,"Hola, ¿cómo estás? ¿Listo para arrancar el día?",47,salida_pyttsx3\frase_1.wav,salida_pyttsx3\frase_1.mp3,0.4557,4.5238,0.1007,69.39,106.36,22050,1,
+2,El presente informe se encuentra sujeto a revisión.,51,salida_pyttsx3\frase_2.wav,salida_pyttsx3\frase_2.mp3,0.2023,3.6585,0.0553,60.45,108.67,22050,1,
+3,"Che, ayer vi una peli increíble, después te cuento los detalles.",64,salida_pyttsx3\frase_3.wav,salida_pyttsx3\frase_3.mp3,0.2023,5.0836,0.0398,56.6,108.82,22050,1,
+4,La fotosíntesis es el proceso mediante el cual las plantas convierten la energía solar en energía química.,106,salida_pyttsx3\frase_4.wav,salida_pyttsx3\frase_4.mp3,0.2015,6.608,0.0305,56.08,112.91,22050,1,
+5,"De acuerdo con la normativa vigente, se deberá presentar la documentación antes del viernes.",92,salida_pyttsx3\frase_5.wav,salida_pyttsx3\frase_5.mp3,0.2983,6.0632,0.0492,46.62,109.01,22050,1,
+6,"Era una tarde lluviosa en la ciudad, las luces de los autos se reflejaban en el asfalto mojado, y la gente caminaba rápido buscando refugio.",140,salida_pyttsx3\frase_6.wav,salida_pyttsx3\frase_6.mp3,0.203,9.0976,0.0223,60.7,108.99,22050,1,
+7,"El modelo de aprendizaje profundo se entrenó con más de un millón de parámetros, optimizando su capacidad de generalización en tareas de reconocimiento de voz.",159,salida_pyttsx3\frase_7.wav,salida_pyttsx3\frase_7.mp3,0.2523,9.6571,0.0261,47.12,112.02,22050,1,
+8,"Bueno, entonces nos vemos mañana a la misma hora, ¿te parece?",61,salida_pyttsx3\frase_8.wav,salida_pyttsx3\frase_8.mp3,0.2019,4.7834,0.0422,43.88,109.14,22050,1,
+9,El incumplimiento de las disposiciones establecidas en la Ley 24.557 podrá derivar en sanciones económicas proporcionales a la infracción.,138,salida_pyttsx3\frase_9.wav,salida_pyttsx3\frase_9.mp3,0.2018,10.127,0.0199,62.45,109.28,22050,1,
+10,"¿Sabías que el agua hierve a 100 grados Celsius a nivel del mar, pero a menor presión atmosférica la temperatura de ebullición disminuye?",137,salida_pyttsx3\frase_10.wav,salida_pyttsx3\frase_10.mp3,0.2014,8.2025,0.0246,54.15,111.33,22050,1,

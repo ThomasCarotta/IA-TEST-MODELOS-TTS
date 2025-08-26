@@ -11,3 +11,11 @@ pandas
 
 #Piper TTS
 piper-tts
+
+#pyttsx3 (motor offline)
+pyttsx3
+
+
+torch 
+torchaudio
+f5-tts
