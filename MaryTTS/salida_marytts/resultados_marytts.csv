@@ -1,0 +1,11 @@
+idx,frase,chars,wav_path,mp3_path,latencia_s,duracion_audio_s,rtf,cpu_promedio_%,ram_java_max_MB,samplerate,channels,error
+1,"Hola, ¿cómo estás? ¿Listo para arrancar el día?",47,salida_marytts\frase_1.wav,salida_marytts\frase_1.mp3,5.248,4.03,1.3022,1.03,346.18,48000,1,
+2,El presente informe se encuentra sujeto a revisión.,51,salida_marytts\frase_2.wav,salida_marytts\frase_2.mp3,4.872,3.95,1.2334,0.0,332.28,48000,1,
+3,"Che, ayer vi una peli increíble, después te cuento los detalles.",64,salida_marytts\frase_3.wav,salida_marytts\frase_3.mp3,5.1656,4.33,1.193,0.0,341.09,48000,1,
+4,La fotosíntesis es el proceso mediante el cual las plantas convierten la energía solar en energía química.,106,salida_marytts\frase_4.wav,salida_marytts\frase_4.mp3,7.3431,7.6,0.9662,0.0,337.05,48000,1,
+5,"De acuerdo con la normativa vigente, se deberá presentar la documentación antes del viernes.",92,salida_marytts\frase_5.wav,salida_marytts\frase_5.mp3,6.6894,6.74,0.9925,0.0,341.6,48000,1,
+6,"Era una tarde lluviosa en la ciudad, las luces de los autos se reflejaban en el asfalto mojado, y la gente caminaba rápido buscando refugio.",140,salida_marytts\frase_6.wav,salida_marytts\frase_6.mp3,9.2779,10.445,0.8883,0.2,342.24,48000,1,
+7,"El modelo de aprendizaje profundo se entrenó con más de un millón de parámetros, optimizando su capacidad de generalización en tareas de reconocimiento de voz.",159,salida_marytts\frase_7.wav,salida_marytts\frase_7.mp3,10.007,11.275,0.8875,0.51,354.18,48000,1,
+8,"Bueno, entonces nos vemos mañana a la misma hora, ¿te parece?",61,salida_marytts\frase_8.wav,salida_marytts\frase_8.mp3,5.1009,4.425,1.1528,0.0,349.31,48000,1,
+9,El incumplimiento de las disposiciones establecidas en la Ley 24.557 podrá derivar en sanciones económicas proporcionales a la infracción.,138,salida_marytts\frase_9.wav,salida_marytts\frase_9.mp3,9.8734,11.29,0.8745,0.19,363.86,48000,1,
+10,"¿Sabías que el agua hierve a 100 grados Celsius a nivel del mar, pero a menor presión atmosférica la temperatura de ebullición disminuye?",137,salida_marytts\frase_10.wav,salida_marytts\frase_10.mp3,8.6848,9.635,0.9014,0.0,381.3,48000,1,

@@ -9,16 +9,12 @@ import subprocess
 from pathlib import Path
 
 # -------------------------
-# CONFIG (editá tus rutas)
-# -------------------------
 PIPER_BIN = r"E:\Trae Code\TP_FINAL_IA_TTS\ThomasTTS\Scripts\piper.exe"
 MODEL_PATH = r"E:\Trae Code\TP_FINAL_IA_TTS\modelos\es_AR-daniela-high.onnx"
 CSV_FILE = r"E:\Trae Code\TP_FINAL_IA_TTS\frases.csv"
 OUTPUT_DIR = "salida_piper"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# -------------------------
-# Utilidades
 # -------------------------
 def check_prereqs():
     if not Path(PIPER_BIN).exists():
@@ -96,8 +92,7 @@ def wav_info(path):
     dur = info.frames / info.samplerate if info.samplerate else 0.0
     return info.samplerate, info.channels, dur
 
-# -------------------------
-# Main
+
 # -------------------------
 def main():
     check_prereqs()
@@ -127,7 +122,7 @@ def main():
 
             rtf = latency / dur if dur > 0 else None
 
-            # Exportar a MP3 si hay ffmpeg
+            # Exportar a MP3
             mp3_done = False
             if ffmpeg_bin:
                 try:
